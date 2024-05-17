@@ -1,0 +1,99 @@
+{
+  "schemes" : [
+    {
+      "pointer" : {
+        "speed" : 0.0689655172413792768,
+        "acceleration" : 1.1,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "speed" : 0,
+        "acceleration" : 1,
+        "reverse" : true,
+        "distance" : {
+          "horizontal" : "58.1px",
+          "vertical" : 6
+        }
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "serialNumber" : "0F8439683534",
+          "productID" : "0xc08b",
+          "category" : "mouse",
+          "productName" : "G502 HERO Gaming Mouse"
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.calibre-ebook.ebook-viewer",
+        "device" : {
+          "productID" : "0xc08b",
+          "vendorID" : "0x46d",
+          "serialNumber" : "0F8439683534",
+          "category" : "mouse",
+          "productName" : "G502 HERO Gaming Mouse"
+        }
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : "128px"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productID" : "0xc08b",
+          "productName" : "G502 HERO Gaming Mouse",
+          "vendorID" : "0x46d",
+          "category" : "mouse",
+          "serialNumber" : "0F8439683534"
+        },
+        "app" : "com.apple.finder"
+      },
+      "scrolling" : {
+        "distance" : {
+          "vertical" : "128px"
+        },
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.apple.AppStore",
+        "device" : {
+          "productID" : "0xc08b",
+          "category" : "mouse",
+          "vendorID" : "0x46d",
+          "productName" : "G502 HERO Gaming Mouse",
+          "serialNumber" : "0F8439683534"
+        }
+      },
+      "scrolling" : {
+        "distance" : {
+          "vertical" : "128px"
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      }
+    }
+  ],
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5"
+}

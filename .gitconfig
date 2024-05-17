@@ -1,0 +1,16 @@
+[user]
+	name = Leander Steiner
+	email = leandersteiner@yahoo.de
+[init]
+	defaultbranch = main
+[includeIf "gitdir:~/repos/pf/"]
+	path = ~/repos/pf/.gitconfig
+[includeIf "gitdir:~/repos/uni/"]
+	path = ~/repos/uni/.gitconfig
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	autocrlf = input
