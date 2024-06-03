@@ -5,7 +5,7 @@ FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="af-magic"
 ENABLE_CORRECTION="true"
 
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions docker gh kubectl)
