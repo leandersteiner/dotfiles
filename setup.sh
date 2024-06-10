@@ -2,10 +2,11 @@
 
 export CONFIG="$HOME"/.config
 
-ln -sf "$PWD/.zprofile" "$HOME"/.zprofile
-ln -sf "$PWD/.zshrc" "$HOME"/.zshrc
-ln -sf "$PWD/.p10k.zsh" "$HOME"/.p10k.zsh
-ln -sf "$PWD/.tmux.conf" "$HOME"/.tmux.conf
+ln -sf "$PWD/.zprofile" "$HOME/.zprofile"
+ln -sf "$PWD/.zshrc" "$HOME/.zshrc"
+ln -sf "$PWD/.p10k.zsh" "$HOME/.p10k.zsh"
+ln -sf "$PWD/.tmux.conf" "$HOME/.tmux.conf"
+ln -df "$PWD/.aerospace.toml" "$HOME/.aerospace.toml"
 ln -sf "$PWD/nvim" "$CONFIG/nvim"
 ln -sf "$PWD/linearmouse" "$CONFIG/linearmouse"
 
